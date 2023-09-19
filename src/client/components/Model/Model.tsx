@@ -1,6 +1,11 @@
 import React from "react";
 import { useGLTF } from "@react-three/drei";
-import { GLTFResult } from "../Models/types";
+import { GLTF } from "three-stdlib";
+
+type GLTFResult = GLTF & {
+  nodes: { [key: string]: THREE.Mesh };
+  materials: { [key: string]: THREE.MeshStandardMaterial };
+};
 
 export const Model = () => {
   const { nodes, materials } = useGLTF("/models/waterfall.glb") as GLTFResult;
