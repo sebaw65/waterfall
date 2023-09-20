@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import { CameraControls, Environment } from "@react-three/drei";
-import { Models } from "../Models";
 import { StyledCanvas } from "./styled";
 import { Model } from "../Model";
 
