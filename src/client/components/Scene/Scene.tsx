@@ -11,7 +11,7 @@ export const Scene = () => {
       gl={{ antialias: false }}
     >
       <ambientLight intensity={0.9} />
-      <Environment files={"/studio_2k.hdr"} />
+      <Environment files={"/studio_2k.hdr"} background={true} blur={0.2} />
       <CameraControls />
 
       <Suspense fallback={null}>
