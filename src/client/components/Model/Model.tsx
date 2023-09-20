@@ -497,6 +497,14 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
         rotation={[-0.38, 1.194, 3.012]}
         scale={[8.278, 3.881, 4.51]}
       />
+      <mesh
+        name="Icosphere041"
+        geometry={nodes.Icosphere041.geometry}
+        material={materials.yellow}
+        position={[-5.879, 4.287, -54.206]}
+        rotation={[0, -0.098, 0]}
+        scale={0.164}
+      />
     </group>
   );
 }
