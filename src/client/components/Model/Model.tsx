@@ -102,7 +102,7 @@ export function Model(props: JSX.IntrinsicElements["group"]) {
 
   const transparentMat = new THREE.MeshStandardMaterial({
     transparent: true,
-    opacity: 0.5,
+    opacity: 0.2,
   });
 
   return (
